@@ -1,0 +1,13 @@
+﻿<Window x:Class="_17_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:_17_2.Properties"
+        Title="MainWindow" Height="450" Width="450">
+
+    <Grid>
+        <StackPanel>
+            <local:ColorIndex x:Name="colorIndex" HorizontalAlignment="Center" Width="250" Height="250"/>
+            <TextBlock x:Name="txb" Text="Привет!" Margin="10" Padding="10" Background="Pink"/>
+        </StackPanel>
+    </Grid>
+</Window>
